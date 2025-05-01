@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superman Funding Propaganda Poster</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            overflow-x: hidden;
+        }
+       
+        #superman-poster-container {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            background-color: white;
+            overflow-y: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+       
+        #superman-image-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        #superman-image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+       
+        #superman-content-container {
+            position: relative;
+            max-width: 800px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 20px;
+            z-index: 2;
+        }
+       
+        .title-banner {
+            text-align: center;
+            color: #dc0000;
+            font-size: 2.8rem;
+            text-shadow: 2px 2px 0 #000;
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 0, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+            border: 4px solid #0055a4;
+        }
+       
+        .subtitle {
+            text-align: center;
+            color: #003399;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+       
+        .section {
+            background-color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 6px solid #dc0000;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+       
+        .section-title {
+            color: #003399;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+       
+        .evidence-item {
+            padding: 10px;
+            background-color: rgba(255, 255, 0, 0.2);
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+       
+        .evidence-quote {
+            font-weight: bold;
+            color: #dc0000;
+            font-size: 1.2rem;
+        }
+       
+        .support-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: rgba(0, 51, 153, 0.1);
+            border-radius: 8px;
+        }
+       
+        .support-point {
+            font-weight: bold;
+            color: #003399;
+            font-size: 1.2rem;
+        }
+       
+        .opposition-item {
+            background-color: rgba(220, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+       
+        .opposition-point {
+            font-weight: bold;
+            color: #003399;
+            font-size: 1.1rem;
+        }
+       
+        .response-container {
+            margin-top: 5px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+        }
+       
+        .response-label {
+            font-weight: bold;
+            color: #dc0000;
+        }
+       
+        .close-btn {
+            padding: 10px 20px;
+            background-color: #dc0000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="superman-poster-container">
+        <div id="superman-image-container">
+            <img src="https://i.ibb.co/d0sRj0mx/Super-Man-Poster.jpg" alt="Superman">
+        </div>
+       
+        <div id="superman-content-container">
+            <h1 class="title-banner">HEROES DESERVE SUPPORT WHEN DUTY CALLS</h1>
+           
+            <p class="subtitle">Superheroes should have access to funding when the reason is valid</p>
+           
+            <div class="section">
+                <h2 class="section-title">EVIDENCE FROM THE FIELD</h2>
+               
+                <div class="evidence-item">
+                    <p class="evidence-quote">"He puts papers in his briefcase and drives away"</p>
+                    <p>This line can be interpreted as Superman working a job before leaving said job, showing how a superhero like Superman could be deserving a payment</p>
+                </div>
+               
+                <div class="evidence-item">
+                    <p class="evidence-quote">"I watch superman fly away today"</p>
+                    <p>This notes the flip side of Superman's activities, which are different from a normal form of work</p>
+                </div>
+               
+                <div class="evidence-item">
+                    <p class="evidence-quote">"I've got a busy day today"</p>
+                    <p>This connects with the previous quote, which solidifies the work Superman partakes in outside the scope of a normal job</p>
+                </div>
+            </div>
+           
+            <div class="section">
+                <h2 class="section-title">WHY HEROES NEED SUPPORT</h2>
+               
+                <div class="support-item">
+                    <p class="support-point">Superman works a normal job</p>
+                    <p>This is reference to his actual work he partakes in, which he likely gets pay for</p>
+                </div>
+               
+                <div class="support-item">
+                    <p class="support-point">Superman works outside of the scope of what defines a normal job</p>
+                    <p>This is in reference to Superman's duties that he places upon himself outside the scope of the working world, he defines this by his own terms and avoids government intervention</p>
+                </div>
+               
+                <div class="support-item">
+                    <p class="support-point">Superman provides a service which cannot be easily quantified in monetary value</p>
+                    <p>Superman's hero work is beyond normal calculations for regular compensation, saving a life has infinite value above working a job in terms of pay alone.</p>
+                </div>
+            </div>
+           
+            <div class="section">
+                <h2 class="section-title">ADDRESSING THE OPPOSITION</h2>
+               
+                <div class="opposition-item">
+                    <p class="opposition-point">Superhero's do this for the greater good, which in of itself is a form of compensation</p>
+                    <div class="response-container">
+                        <p class="response-label">Our Response:</p>
+                        <p>Superman may do his work for the greater good, but this alone shouldn't exclude him from support</p>
+                    </div>
+                </div>
+               
+                <div class="opposition-item">
+                    <p class="opposition-point">Superheroes are already given generous amounts of objects and commemorative goods by the people they save</p>
+                    <div class="response-container">
+                        <p class="response-label">Our Response:</p>
+                        <p>While this may be true, a commemorative good may not be sufficient to continue to save the city, money is expendable.</p>
+                    </div>
+                </div>
+               
+                <div class="opposition-item">
+                    <p class="opposition-point">IF superheroes are not heroes, they become villians and kill everyone, so we should</p>
+                    <div class="response-container">
+                        <p class="response-label">Our Response:</p>
+                        <p>Money is an object of corruption, however if money is used to not constitute power, and the hero such as superman already has enough power to do as he pleases, power from money is but a perk that has little meaning, and therefore little effect.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="close-superman-poster" class="close-btn">Close Poster</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="superman-poster.js"></script>
+</body>
+</html>
